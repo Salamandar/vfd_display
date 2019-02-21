@@ -14,9 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 1600 1100
-NoConn ~ 7200 1100
-NoConn ~ 3500 1100
 $Comp
 L itron_vacuum_fluorescent_display:DC201LA U?
 U 1 1 5C046D23
@@ -43,7 +40,6 @@ F 3 "http://www.noritake-itron.com/Specs/D/DC201LA.pdf" H 8800 2100 50  0001 C C
 	2    8700 750 
 	0    1    -1   0   
 $EndComp
-NoConn ~ 10100 1100
 $Comp
 L power:VDD #PWR?
 U 1 1 5C046D32
@@ -642,7 +638,6 @@ F 3 "https://www.st.com/resource/en/datasheet/m74hc595.pdf" H -1800 5600 50  000
 	1    -1800 5600
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8300 1100
 Text Label -2400 600  0    50   ~ 0
 SRCLK
 Text Label -2400 750  0    50   ~ 0
@@ -1667,4 +1662,59 @@ NoConn ~ -1400 8300
 NoConn ~ -1400 8400
 NoConn ~ -1400 11400
 NoConn ~ -1400 11500
+$Comp
+L power:GND #PWR?
+U 1 1 5D77F4DB
+P 1600 1100
+F 0 "#PWR?" H 1600 850 50  0001 C CNN
+F 1 "GND" H 1605 927 50  0000 C CNN
+F 2 "" H 1600 1100 50  0001 C CNN
+F 3 "" H 1600 1100 50  0001 C CNN
+	1    1600 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D77F5A3
+P 3500 1100
+F 0 "#PWR?" H 3500 850 50  0001 C CNN
+F 1 "GND" H 3505 927 50  0000 C CNN
+F 2 "" H 3500 1100 50  0001 C CNN
+F 3 "" H 3500 1100 50  0001 C CNN
+	1    3500 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D77FBAC
+P 7200 1100
+F 0 "#PWR?" H 7200 850 50  0001 C CNN
+F 1 "GND" H 7205 927 50  0000 C CNN
+F 2 "" H 7200 1100 50  0001 C CNN
+F 3 "" H 7200 1100 50  0001 C CNN
+	1    7200 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D77FDF3
+P 8300 1100
+F 0 "#PWR?" H 8300 850 50  0001 C CNN
+F 1 "GND" H 8305 927 50  0000 C CNN
+F 2 "" H 8300 1100 50  0001 C CNN
+F 3 "" H 8300 1100 50  0001 C CNN
+	1    8300 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D78018C
+P 10100 1100
+F 0 "#PWR?" H 10100 850 50  0001 C CNN
+F 1 "GND" H 10105 927 50  0000 C CNN
+F 2 "" H 10100 1100 50  0001 C CNN
+F 3 "" H 10100 1100 50  0001 C CNN
+	1    10100 1100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

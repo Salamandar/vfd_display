@@ -1570,9 +1570,9 @@ F 3 "https://www.st.com/resource/en/datasheet/m74hc595.pdf" H -1800 11200 50  00
 $EndComp
 Wire Wire Line
 	-2200 10550 -2200 10800
-Text Label -1400 5500 0    50   ~ 0
+Text Label -1400 5700 0    50   ~ 0
 G11
-Text Label -1400 5400 0    50   ~ 0
+Text Label -1400 5600 0    50   ~ 0
 G12
 Wire Wire Line
 	-2200 10550 -1400 10550
@@ -1582,25 +1582,25 @@ Wire Wire Line
 	-1350 4950 -1350 4700
 Wire Wire Line
 	-1350 4700 -1400 4700
-Text Label -1400 5300 0    50   ~ 0
+Text Label -1400 5500 0    50   ~ 0
 G13
-Text Label -1400 5200 0    50   ~ 0
+Text Label -1400 5400 0    50   ~ 0
 G14
-Text Label -1400 4500 0    50   ~ 0
+Text Label -1400 5300 0    50   ~ 0
 G15
-Text Label -1400 4400 0    50   ~ 0
+Text Label -1400 5200 0    50   ~ 0
 G16
-Text Label -1400 4300 0    50   ~ 0
+Text Label -1400 4500 0    50   ~ 0
 G17
 NoConn ~ -1400 11700
-Text Label -1400 4200 0    50   ~ 0
+Text Label -1400 4400 0    50   ~ 0
 G18
-Text Label -1400 4100 0    50   ~ 0
+Text Label -1400 4300 0    50   ~ 0
 G19
-Text Label -1400 4000 0    50   ~ 0
+Text Label -1400 4200 0    50   ~ 0
 G20
-NoConn ~ -1400 5600
-NoConn ~ -1400 5700
+NoConn ~ -1400 4000
+NoConn ~ -1400 4100
 NoConn ~ -1400 5800
 NoConn ~ -1400 5900
 Text Label -1400 11300 0    50   ~ 0
@@ -1663,10 +1663,10 @@ NoConn ~ -1400 8400
 NoConn ~ -1400 11400
 NoConn ~ -1400 11500
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0149
 U 1 1 5D77F4DB
 P 1600 1100
-F 0 "#PWR?" H 1600 850 50  0001 C CNN
+F 0 "#PWR0149" H 1600 850 50  0001 C CNN
 F 1 "GND" H 1605 927 50  0000 C CNN
 F 2 "" H 1600 1100 50  0001 C CNN
 F 3 "" H 1600 1100 50  0001 C CNN
@@ -1674,10 +1674,10 @@ F 3 "" H 1600 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0150
 U 1 1 5D77F5A3
 P 3500 1100
-F 0 "#PWR?" H 3500 850 50  0001 C CNN
+F 0 "#PWR0150" H 3500 850 50  0001 C CNN
 F 1 "GND" H 3505 927 50  0000 C CNN
 F 2 "" H 3500 1100 50  0001 C CNN
 F 3 "" H 3500 1100 50  0001 C CNN
@@ -1685,10 +1685,10 @@ F 3 "" H 3500 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0151
 U 1 1 5D77FBAC
 P 7200 1100
-F 0 "#PWR?" H 7200 850 50  0001 C CNN
+F 0 "#PWR0151" H 7200 850 50  0001 C CNN
 F 1 "GND" H 7205 927 50  0000 C CNN
 F 2 "" H 7200 1100 50  0001 C CNN
 F 3 "" H 7200 1100 50  0001 C CNN
@@ -1696,10 +1696,10 @@ F 3 "" H 7200 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0152
 U 1 1 5D77FDF3
 P 8300 1100
-F 0 "#PWR?" H 8300 850 50  0001 C CNN
+F 0 "#PWR0152" H 8300 850 50  0001 C CNN
 F 1 "GND" H 8305 927 50  0000 C CNN
 F 2 "" H 8300 1100 50  0001 C CNN
 F 3 "" H 8300 1100 50  0001 C CNN
@@ -1707,10 +1707,10 @@ F 3 "" H 8300 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0153
 U 1 1 5D78018C
 P 10100 1100
-F 0 "#PWR?" H 10100 850 50  0001 C CNN
+F 0 "#PWR0153" H 10100 850 50  0001 C CNN
 F 1 "GND" H 10105 927 50  0000 C CNN
 F 2 "" H 10100 1100 50  0001 C CNN
 F 3 "" H 10100 1100 50  0001 C CNN
