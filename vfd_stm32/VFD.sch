@@ -389,7 +389,7 @@ F 3 "" H -1800 6300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text HLabel -2250 1000 0    50   Input ~ 0
-SPI_Grids_Anodes_A
+SPI_Grids_Anodes
 Text HLabel -2400 600  0    50   Input ~ 0
 SRCLK
 $Comp
@@ -706,10 +706,6 @@ Text Label -2200 6800 2    50   ~ 0
 SRCLK
 Text Label -2200 7100 2    50   ~ 0
 RCLK
-Text GLabel 1500 1100 0    50   Input ~ 0
-Filament_In_B
-Text GLabel 10200 1100 2    50   Input ~ 0
-Filament_In_A
 $Comp
 L power:GND #PWR056
 U 1 1 5C22FCA1
@@ -1717,4 +1713,8 @@ F 3 "" H 10100 1100 50  0001 C CNN
 	1    10100 1100
 	1    0    0    -1  
 $EndComp
+Text HLabel 1500 1100 0    50   Input ~ 0
+Filament_In_B
+Text HLabel 10200 1100 2    50   Input ~ 0
+Filament_In_A
 $EndSCHEMATC

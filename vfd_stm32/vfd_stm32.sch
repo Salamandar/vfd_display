@@ -109,18 +109,17 @@ Wire Wire Line
 	1950 6050 1550 6050
 Wire Wire Line
 	1950 6150 1550 6150
-Wire Wire Line
-	2550 6350 2650 6350
 $Sheet
 S 7450 1200 2050 1500
 U 5C046833
 F0 "VFD" 50
 F1 "VFD.sch" 50
-F2 "SPI_Grids_Anodes_A" I L 7450 1500 50 
-F3 "RCLK" I L 7450 1800 50 
-F4 "SPI_Grids_Anodes_B" I L 7450 1600 50 
-F5 "SRCLK" I L 7450 1700 50 
-F6 "Power_Grids_Anodes" I L 7450 1300 50 
+F2 "SPI_Grids_Anodes" I L 7450 1500 50 
+F3 "RCLK" I L 7450 1700 50 
+F4 "SRCLK" I L 7450 1600 50 
+F5 "Power_Grids_Anodes" I L 7450 1300 50 
+F6 "Filament_In_B" I L 7450 2100 50 
+F7 "Filament_In_A" I L 7450 2000 50 
 $EndSheet
 Connection ~ 3150 5350
 $Comp
@@ -191,7 +190,6 @@ F 3 "" H 2550 6350 50  0001 C CNN
 	1    2550 6350
 	1    0    0    -1  
 $EndComp
-Connection ~ 2550 6350
 $Comp
 L power:GND #PWR0133
 U 1 1 5DD94AAC
@@ -326,14 +324,6 @@ F 3 "https://www.st.com/resource/en/datasheet/tsz124.pdf" H 4800 6400 50  0001 C
 	1    4650 6250
 	1    0    0    -1  
 $EndComp
-Text GLabel 3150 5950 2    50   Input ~ 0
-Filament_In_A
-Text GLabel 3150 6050 2    50   Input ~ 0
-Filament_In_B
-Text GLabel 3150 5550 2    50   Input ~ 0
-Filament_In_A
-Text GLabel 3150 5650 2    50   Input ~ 0
-Filament_In_B
 $Comp
 L power:VCC #PWR0137
 U 1 1 5DDB5979
@@ -396,4 +386,19 @@ Wire Wire Line
 	3050 800  3250 800 
 Wire Wire Line
 	2850 900  3050 900 
+Connection ~ 2550 6350
+Wire Wire Line
+	2550 6350 2650 6350
+Text Label 3150 5550 0    50   ~ 0
+Filament_In_A
+Text Label 3150 5650 0    50   ~ 0
+Filament_In_B
+Text Label 3150 5950 0    50   ~ 0
+Filament_In_A
+Text Label 3150 6050 0    50   ~ 0
+Filament_In_B
+Text Label 7450 2000 2    50   ~ 0
+Filament_In_A
+Text Label 7450 2100 2    50   ~ 0
+Filament_In_B
 $EndSCHEMATC
