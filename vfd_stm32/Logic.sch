@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -95,4 +95,18 @@ F 3 "" H 7950 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7950 1700
+Text HLabel 7900 3500 2    50   Input ~ 0
+Filament_PWM2
+Text HLabel 7900 3600 2    50   Input ~ 0
+Filament_Enable
+Text HLabel 7900 3400 2    50   Input ~ 0
+Filament_PWM1
+Text HLabel 7900 3700 2    50   Input ~ 0
+Filament_Current_ADC
+Text HLabel 7900 4100 2    50   Input ~ 0
+Grids_Anodes_SPI_RCLK
+Text HLabel 7900 4000 2    50   Input ~ 0
+Grids_Anodes_SPI_MOSI
+Text HLabel 7900 4200 2    50   Input ~ 0
+Grids_Anodes_SPI_SRCLK
 $EndSCHEMATC
