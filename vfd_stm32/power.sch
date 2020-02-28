@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:vfd_display-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0168
 U 1 1 5CA47ECF
 P 2800 2600
-F 0 "#PWR?" H 2800 2350 50  0001 C CNN
+F 0 "#PWR0168" H 2800 2350 50  0001 C CNN
 F 1 "GND" H 2805 2427 50  0000 C CNN
 F 2 "" H 2800 2600 50  0001 C CNN
 F 3 "" H 2800 2600 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "" H 2800 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J3
 U 1 1 5CA48A14
 P 2600 2600
-F 0 "J?" H 2520 2275 50  0000 C CNN
+F 0 "J3" H 2520 2275 50  0000 C CNN
 F 1 "Conn_01x02" H 2520 2366 50  0000 C CNN
 F 2 "" H 2600 2600 50  0001 C CNN
 F 3 "~" H 2600 2600 50  0001 C CNN
